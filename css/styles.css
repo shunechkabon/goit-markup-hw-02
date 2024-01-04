@@ -8,7 +8,7 @@ body {
     height: 100%;
 }
 
-header {
+.page-header {
     background:  #FFF;
     padding-top: 24px;
     padding-left: 156px;
@@ -79,7 +79,7 @@ a {
     display: block;
 }
 
-footer {
+.page-footer {
     background:  #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
