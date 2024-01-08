@@ -1,11 +1,19 @@
 body {
-    color:  #434455;
     font-family: "Roboto", "Raleway", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    color: #434455;
     background-color: #FCFCFC;
     margin: 0;
     height: 100%;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .page-header {
@@ -26,14 +34,6 @@ body {
     text-transform: uppercase;
 }
 
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 .logo-studio-header {
     color:  #2E2F42;
     font-family: Raleway;
@@ -42,6 +42,26 @@ a {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+
+.page-header-nav-links-item {
+    color:  #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+}
+
+.page-header-nav-links-item:hover {
+    color: #404BBF;
+}
+
+.page-header-address-item {
+    color:  #434455;
+    font-size: 16px;
+}
+
+.page-header-address-item:hover {
+    color:  #404BBF;
 }
 
 .main-page {
@@ -79,6 +99,11 @@ a {
     display: block;
 }
 
+.main-page-btn:hover {
+    background-color: #404BBF;
+}
+
+
 .page-footer {
     background:  #2E2F42;
     padding-top: 100px;
@@ -96,11 +121,9 @@ a {
     text-transform: uppercase;
 }
 
-.footer-text {
+.page-footer-text {
     color:  #F4F4FD;
-    font-family: "Roboto";
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
